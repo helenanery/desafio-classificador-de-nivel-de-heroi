@@ -1,10 +1,10 @@
 let nome = "Kaisa";
 // add quantidade de XP
-let qttdXP = 0;
+let qttdXP = 1000;
 
-console.log("A personagem " + nome + " está no nível de classificação: ");
+console.log("A personagem " + nome + " está no nível de classificação:");
 
-if (qttdXP < 1000) {
+if (qttdXP <= 1000) {
     console.log("Ferro");
 } else if (qttdXP <= 2000) {
     console.log("Bronze");
@@ -19,5 +19,5 @@ if (qttdXP < 1000) {
 } else if (qttdXP >= 10001) {
     console.log("Radiante");
 } else {
-    console.log("Não está dentre as quantidades de XP alternativas.")
+    console.log("Quantidade de XP inválida.");
 }
