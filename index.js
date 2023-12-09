@@ -1,6 +1,6 @@
 let nome = "Kaisa";
 // add quantidade de XP
-let qttdXP = 1000;
+let qttdXP = 0;
 
 console.log("A personagem " + nome + " está no nível de classificação:");
 
